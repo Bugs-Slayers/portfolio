@@ -17,11 +17,11 @@ const Nav = ({openNav}: Props) => {
                 PORT 
                 <span className='text-yellow-300'>FOLIO</span>
             </h1>
-            <Link href="/hero" className='nav-link'>HOME</Link>
-            <Link href="/hero" className='nav-link'>ABOUT</Link>
-            <Link href="/hero" className='nav-link'>PROJECT</Link>
-            <Link href="/hero" className='nav-link'>EDUCATION & SKILLS</Link>
-            <Link href="/hero" className='nav-link'>CONTACT</Link>
+            <Link href="/" className='nav-link'>HOME</Link>
+            <Link href="#about" className='nav-link'>ABOUT</Link>
+            <Link href="#project" className='nav-link'>PROJECT</Link>
+            <Link href="#education&skills" className='nav-link'>EDUCATION & SKILLS</Link>
+            <Link href="#contact" className='nav-link'>CONTACT</Link>
            
             
             <div onClick={openNav}>
